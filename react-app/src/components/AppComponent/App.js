@@ -28,7 +28,7 @@ class App extends React.Component {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/posts" element={<Posts />}>
-            <Route path=":postId" element={<Post state={{ title: ":postId" }} />} />
+            <Route path=":postId" element={<Post />} />
           </Route>
           <Route path="/contact" element={<Contact />} />
         </Routes>
