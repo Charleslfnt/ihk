@@ -1,37 +1,33 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import './responsive.css';
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import Home from '../HomeComponent/Home';
-import Posts from '../PostsComponent/Posts';
-import Contact from '../ContactComponent/Contact';
-import Post from '../PostComponent/Post';
+import Home from '../HomeComponent/Home'
+import About from '../AboutComponent/About'
+import Product from '../ProductComponent/Product'
+import Login from '../LoginComponent/Login'
+import Navbar from '../NavComponent/Nav';
+import Footer from '../FooterComponent/footer'
+import Contact from '../ContactComponent/Contact'
+import Button from '../ButtonComponent/Button';
+
+
+
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Menu with Link component</h1>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/posts">Posts</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-        </ul>
-        <div id="no-link">
-          <h1>Menu without Link component</h1>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/posts">Posts</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </div>
-        <hr />
+         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/posts" element={<Posts />}>
-            <Route path=":postId" element={<Post />} />
-          </Route>
+          <Route path="/about" element={<About />} />
+          <Route path="/product" element={<Product />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
+        <Footer/>
       </div >
     );
   }

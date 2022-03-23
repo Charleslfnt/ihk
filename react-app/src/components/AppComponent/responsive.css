@@ -1,0 +1,106 @@
+@media screen and (min-width: 990px) and (max-width: 1200px) { 
+    .destination {
+        width: 24%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    .container {
+        padding-right: 10px; 
+        padding-left: 10px;
+    }
+
+    .form-block, .deal-block {
+        width: 100%;
+    }
+
+    .deal-block {
+        background-image: url("https://picsum.photos/630/200");
+    }
+
+    .head{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-order {
+        width: 90%;
+    }
+
+    .btn-find {
+        justify-content: center;
+       margin-top: 25px;
+    }
+
+    .btn-find input {
+        margin-right: 0;
+        width: 77%;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination {
+        flex-direction: column;
+        background-image: url("https://picsum.photos/630/250");
+        width: 90%;
+    }
+
+    .pictos {
+        flex-wrap: wrap;
+    }
+
+    .pictos div {
+    width: 40%;
+    text-align: center;
+    }
+
+    .informations {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .single-paris {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .text {
+        margin-bottom: 25px;
+    }
+
+    .gallery, .text {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .photos {
+        height: 350px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .form-order select, textarea{
+        width: 77%;
+    }
+
+    .right li {
+        line-height: 25px
+    }
+
+    .btn-end {
+        width: 95%;
+    }
+
+    
+}

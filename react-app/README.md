@@ -1,3 +1,8 @@
+## IHK website 
+Version 1.0.0
+Release 2022
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

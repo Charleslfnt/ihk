@@ -1,3 +1,371 @@
-#no-link{
-    opacity: 0.3;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;1,700&family=Poppins:wght@300;500&display=swap');
+
+#app {
+   background-color: #1A46B7;
+}
+/**
+ background: linear-gradient(90deg, #1A46B7  0.03%, rgba(26, 70, 183, 0.488922) 107.74%, rgba(26, 70, 183, 0) 107.82%);
+#917924
+#1A46B7 
+#0a7f8b
+#0A3441*/
+
+h1, h2, h3, h4, h5, p, li, span, a, label {
+    font-family: Poppins;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    color: #FFFFFF;
+}
+
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+  
+}
+
+.main-title {
+    margin-left: 80px;
+}
+
+.title:hover {
+    color: #FFFFFF;
+}
+
+ul {
+    margin-top: revert  ;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin: 50px;
+}
+
+.navbar {
+    margin: 0;
+    
+}
+
+nav {
+   background-color: #1A46B7;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.navbar-collapse {
+    flex-grow: initial;
+}
+
+.navbar-toggler-icon, .navbar span, .collapsed {
+    color: #FFFFFF;
+}
+
+.show .nav-item {
+    text-align: center;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #1A46B7 ;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 80px;
+  }
+
+.sticky + .rows {
+    padding-top: 300px;
+  }
+
+
+.myBtn {
+    height: 50px;
+    width: 50px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #FFFFFF; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+
+
+.banner {
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.banner h2, .banner p {
+    text-align: center;
+}
+
+.banner h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.banner p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    width: 510px;
+    height: 72px;
+    margin: auto;
+}
+
+.first, .second, .three {
+    margin-bottom: 150px;
+}
+
+.first .left, .three .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first p, .second p, .three p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    width: 411px;
+    margin: auto;
+}
+
+.first img {
+    width: 637.28px;
+    height: 441px;
+}
+
+.second .left {
+    display: flex;
+    justify-content: center;
+}
+
+.second .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second h2, .second p{
+    width: 413px;   
+}
+
+
+
+
+.second img {
+    width: 550px;
+    height: 450px;
+}
+
+.three img {
+    width: 660px;
+    height: 500px;
+}
+
+.three h2 {
+    width: 409px;
+}
+
+
+
+
+form  {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+form input, select {
+    height: 42px;
+}
+
+form select {
+    border: none;
+    border-radius: 15px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+form input, form textarea {
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.informations {
+    width: 265px;
+    margin: auto;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.checkbox label {
+    width: 520px;
+}
+
+form button {
+height: 41px;
+color: #FFFFFF;
+border: none;
+background: #E67003;
+border-radius: 15px;
+
+}
+
+.cat div {
+    margin-bottom: 50px;
+}
+
+.cat img {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.categories img {
+    height: 180px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.categories div {
+  
+    width: 360px;
+}
+
+
+
+
+.group {
+    /**border: 1px solid #FFFFFF;*/
+    padding: 10px;
+}
+
+.group-title {
+    font-size: 22px;
+}
+
+footer {
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+
+footer .logo {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer .row {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    
+}
+
+/**Responsive*/
+
+@media screen and (max-width: 1100px) {
+
+    .main-title {
+        margin-left: 10px;
+    }
+
+    .first h2 , .second h2, .three h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .first p , .second p, .three p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    textarea {
+        width: 100% !important;
+    }
+
+    .form {
+        margin-bottom: 50px;
+    }
+
+    .ckeckbox label {
+        width: 380px !important;
+    }
+
+    .informations {
+        width: 100%;
+    }
+
+    .banner h2 {
+        font-size: 32px;
+    }
+
+    .banner p {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .group {
+        margin: auto;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    footer .col-12, footer p {
+        margin-bottom: 10px;
+    }
+
+    h3, h5 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
